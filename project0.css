@@ -1,6 +1,7 @@
 body
 {
     background: lightblue;
+    width: 100%;
 }
 
 .nav ul {
@@ -84,12 +85,9 @@ body
     font-family: initial;
     font: bold;
     font-size: 56px;
-    background-color: skyblue;
     margin: 10px;
     padding: 50px;
     width: 100%;
-    
-
 }
 
 .name {
@@ -154,4 +152,30 @@ body
     border: 1px solid black;
     padding:4px 6px;
     text-align: center;
+}
+
+
+
+@media screen and (max-width: 600px)
+
+{
+  
+    #table
+    tr { display: block; float: left; }
+    th, td { display: block; }
+
+    #nav a:link, #nav a:visited 
+    {
+        padding: 15px;
+        text-align: left;
+        align-content:left;
+        margin: 5px;
+        color: white;
+        text-decoration:none;
+        font:bold 1em/1em Arial, Helvetica, sans-serif;
+        text-transform:uppercase;
+        width:auto;
+        font-size: 10px;
+    }
+        
 }
