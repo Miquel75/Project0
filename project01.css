@@ -1,4 +1,4 @@
-.li-circe, .li-wwf, .li-lilo, .li-ss, .li-own {
+.li-circe, .box.circe, .li-wwf, .box.wwf, .li-lilo, .box.lilo, .li-ss, .box.ss, .li-own, .box.own {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
   font-weight: bold;
@@ -7,19 +7,26 @@
   margin: 20px;
   padding: 20px; }
 
-.li-circe {
-  background-color: white; }
+.li-circe, .box.circe {
+  background-color: white;
+  color: black; }
+  .li-circe p, .box.circe p {
+    font-size: larger; }
 
-.li-wwf {
-  background-color: blue; }
+.li-wwf, .box.wwf {
+  background-color: blue;
+  color: white; }
 
-.li-lilo {
-  background-color: green; }
+.li-lilo, .box.lilo {
+  background-color: green;
+  color: yellow; }
 
-.li-ss {
-  background-color: black; }
+.li-ss, .box.ss {
+  background-color: black;
+  color: white; }
 
-.li-own {
-  background-color: tomato; }
+.li-own, .box.own {
+  background-color: tomato;
+  color: blue; }
 
 /*# sourceMappingURL=project01.css.map */

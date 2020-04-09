@@ -14,27 +14,38 @@ $bcolor-lilo:green;
 $bcolor-ss:black;
 $bcolor-own:tomato;
 
+$color-circe:black;
+$color-wwf:white;
+$color-lilo:yellow;
+$color-ss:white;
+$color-own:blue;
 
 
-.li-circe {
+.li-circe ,   .box.circe {
     @extend %NGO;
     background-color: $bcolor-circe;
+    color: $color-circe;
+    p{font-size: larger;}
 }
 
-.li-wwf {
+.li-wwf, .box.wwf {
     @extend %NGO;
     background-color: $bcolor-wwf;
+    color: $color-wwf;
 }
-.li-lilo {
+.li-lilo, .box.lilo {
     @extend %NGO;
     background-color: $bcolor-lilo;
+    color: $color-lilo;
 }
-.li-ss {
+.li-ss , .box.ss{
     @extend %NGO;
     background-color: $bcolor-ss;
+    color: $color-ss;
 }
-.li-own {
+.li-own , .box.own{
     @extend %NGO;
     background-color: $bcolor-own;
+    color: $color-own;
 }
 
