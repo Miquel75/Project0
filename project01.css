@@ -1,0 +1,25 @@
+.li-circe, .li-wwf, .li-lilo, .li-ss, .li-own {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  font-weight: bold;
+  list-style: none;
+  border: 1px;
+  margin: 20px;
+  padding: 20px; }
+
+.li-circe {
+  background-color: white; }
+
+.li-wwf {
+  background-color: blue; }
+
+.li-lilo {
+  background-color: green; }
+
+.li-ss {
+  background-color: black; }
+
+.li-own {
+  background-color: tomato; }
+
+/*# sourceMappingURL=project01.css.map */

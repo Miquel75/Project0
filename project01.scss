@@ -1,0 +1,40 @@
+%NGO {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        border: 1px;
+        margin: 20px;
+        padding: 20px;
+}
+
+$bcolor-circe:white;
+$bcolor-wwf:blue;
+$bcolor-lilo:green;
+$bcolor-ss:black;
+$bcolor-own:tomato;
+
+
+
+.li-circe {
+    @extend %NGO;
+    background-color: $bcolor-circe;
+}
+
+.li-wwf {
+    @extend %NGO;
+    background-color: $bcolor-wwf;
+}
+.li-lilo {
+    @extend %NGO;
+    background-color: $bcolor-lilo;
+}
+.li-ss {
+    @extend %NGO;
+    background-color: $bcolor-ss;
+}
+.li-own {
+    @extend %NGO;
+    background-color: $bcolor-own;
+}
+
